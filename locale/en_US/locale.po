@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MathJax for OJS\n"
+"POT-Creation-Date: 2026-07-23\n"
+"PO-Revision-Date: 2026-07-23\n"
+"Last-Translator: OJS Services\n"
+"Language-Team: en_US\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.mathJaxRender.displayName"
+msgstr "MathJax for OJS"
+
+msgid "plugins.generic.mathJaxRender.description"
+msgstr "Renders LaTeX/TeX mathematics on your journal's pages using MathJax."
+
+msgid "plugins.generic.mathJaxRender.settings.description"
+msgstr "Choose where MathJax is loaded and how formulas are recognized. MathJax is only loaded on the pages selected below — unselected pages are left completely untouched."
+
+msgid "plugins.generic.mathJaxRender.settings.areas"
+msgstr "Enabled areas"
+
+msgid "plugins.generic.mathJaxRender.settings.areas.description"
+msgstr "Load MathJax on the following pages:"
+
+msgid "plugins.generic.mathJaxRender.settings.areaArticle"
+msgstr "Article landing page (abstract)"
+
+msgid "plugins.generic.mathJaxRender.settings.areaGalley"
+msgstr "HTML galley (full text) pages"
+
+msgid "plugins.generic.mathJaxRender.settings.areaIssue"
+msgstr "Issue table of contents and archive"
+
+msgid "plugins.generic.mathJaxRender.settings.areaSearch"
+msgstr "Search results"
+
+msgid "plugins.generic.mathJaxRender.settings.areaHomepage"
+msgstr "Journal homepage and announcements"
+
+msgid "plugins.generic.mathJaxRender.settings.areaBackend"
+msgstr "Editorial backend — EXPERIMENTAL: render formulas in editor lists such as submission titles. If it ever interferes with editorial work, simply turn it off here."
+
+msgid "plugins.generic.mathJaxRender.settings.backend"
+msgstr "Backend options"
+
+msgid "plugins.generic.mathJaxRender.settings.backend.description"
+msgstr "These options only apply to the editorial backend."
+
+msgid "plugins.generic.mathJaxRender.settings.backendSingleDollar"
+msgstr "Treat single dollar signs ($ ... $) as inline math in the backend. Article titles are usually written this way, so this is on by default — independent of the frontend delimiter setting."
+
+msgid "plugins.generic.mathJaxRender.settings.source.fallbackWarning"
+msgstr "Warning: the self-hosted (bundled) copy is selected, but its files are missing from the server, so MathJax is currently being loaded from the CDN. Restore the plugin's mathjax/ directory (re-install the plugin package) or switch the source to CDN."
+
+msgid "plugins.generic.mathJaxRender.settings.source"
+msgstr "MathJax source"
+
+msgid "plugins.generic.mathJaxRender.settings.source.cdn"
+msgstr "CDN (jsDelivr, pinned version 3.2.2)"
+
+msgid "plugins.generic.mathJaxRender.settings.source.bundled"
+msgstr "Bundled copy (self-hosted, no external requests — recommended; for privacy/GDPR or intranet installations)"
+
+msgid "plugins.generic.mathJaxRender.settings.source.bundledMissing"
+msgstr "not available: the bundled MathJax files were not installed with this plugin"
+
+msgid "plugins.generic.mathJaxRender.settings.delimiters"
+msgstr "Formula delimiters"
+
+msgid "plugins.generic.mathJaxRender.settings.singleDollar"
+msgstr "Also treat single dollar signs ($ ... $) as inline math. Warning: text like \"prices range from $5 to $10\" would then be rendered as a formula. Leave this off unless your journal consistently writes inline math with single dollars."
+
+msgid "plugins.generic.mathJaxRender.settings.inputFormats"
+msgstr "Input formats"
+
+msgid "plugins.generic.mathJaxRender.settings.inputFormats.description"
+msgstr "TeX/LaTeX is always enabled. Enabling MathML or AsciiMath loads a slightly larger MathJax build."
+
+msgid "plugins.generic.mathJaxRender.settings.inputTex"
+msgstr "TeX / LaTeX (always on)"
+
+msgid "plugins.generic.mathJaxRender.settings.inputMathml"
+msgstr "MathML"
+
+msgid "plugins.generic.mathJaxRender.settings.inputAsciimath"
+msgstr "AsciiMath (formulas delimited with backticks)"

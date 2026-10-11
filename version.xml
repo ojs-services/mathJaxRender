@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/generic/mathJaxRender/version.xml
+  *
+  * MathJax for OJS — generic plugin (OJS 3.3).
+  * Renders LaTeX/TeX mathematics on selected journal pages using MathJax.
+  *
+  * Distributed under the GNU GPL v3. For full terms see the file LICENSE.
+  *
+  * Plugin version information.
+  -->
+<version>
+    <application>mathJaxRender</application>
+    <type>plugins.generic</type>
+    <release>1.1.0.12</release>
+    <date>2026-10-11</date>
+    <lazy-load>1</lazy-load>
+    <class>MathJaxRenderPlugin</class>
+</version>

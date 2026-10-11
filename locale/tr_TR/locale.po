@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MathJax for OJS\n"
+"POT-Creation-Date: 2026-07-23\n"
+"PO-Revision-Date: 2026-07-23\n"
+"Last-Translator: OJS Services\n"
+"Language-Team: tr_TR\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.mathJaxRender.displayName"
+msgstr "MathJax for OJS"
+
+msgid "plugins.generic.mathJaxRender.description"
+msgstr "Derginizin sayfalarındaki LaTeX/TeX matematik ifadelerini MathJax ile görüntüler."
+
+msgid "plugins.generic.mathJaxRender.settings.description"
+msgstr "MathJax'in hangi sayfalarda yükleneceğini ve formüllerin nasıl tanınacağını seçin. MathJax yalnızca aşağıda seçili sayfalarda yüklenir — seçilmeyen sayfalara hiç dokunulmaz."
+
+msgid "plugins.generic.mathJaxRender.settings.areas"
+msgstr "Etkin alanlar"
+
+msgid "plugins.generic.mathJaxRender.settings.areas.description"
+msgstr "MathJax şu sayfalarda yüklensin:"
+
+msgid "plugins.generic.mathJaxRender.settings.areaArticle"
+msgstr "Makale sayfası (özet)"
+
+msgid "plugins.generic.mathJaxRender.settings.areaGalley"
+msgstr "HTML galley (tam metin) sayfaları"
+
+msgid "plugins.generic.mathJaxRender.settings.areaIssue"
+msgstr "Sayı içindekiler ve arşiv"
+
+msgid "plugins.generic.mathJaxRender.settings.areaSearch"
+msgstr "Arama sonuçları"
+
+msgid "plugins.generic.mathJaxRender.settings.areaHomepage"
+msgstr "Dergi ana sayfası ve duyurular"
+
+msgid "plugins.generic.mathJaxRender.settings.areaBackend"
+msgstr "Editör arayüzü (backend) — DENEYSEL: gönderi başlıkları gibi editör listelerindeki formülleri görüntüler. Editoryal akışı etkilerse buradan kapatmanız yeterli."
+
+msgid "plugins.generic.mathJaxRender.settings.backend"
+msgstr "Backend seçenekleri"
+
+msgid "plugins.generic.mathJaxRender.settings.backend.description"
+msgstr "Bu seçenekler yalnızca editör arayüzü için geçerlidir."
+
+msgid "plugins.generic.mathJaxRender.settings.backendSingleDollar"
+msgstr "Backend'de tek dolar işaretini ($ ... $) satır içi matematik olarak tanı. Makale başlıkları çoğunlukla böyle yazıldığından varsayılan olarak açıktır — ön yüz sınırlayıcı ayarından bağımsızdır."
+
+msgid "plugins.generic.mathJaxRender.settings.source.fallbackWarning"
+msgstr "Uyarı: kaynak olarak eklenti içindeki (self-host) kopya seçili, ancak dosyaları sunucuda bulunamıyor; MathJax şu anda CDN'den yükleniyor. Eklentinin mathjax/ dizinini geri yükleyin (eklenti paketini yeniden kurun) ya da kaynağı CDN'e çevirin."
+
+msgid "plugins.generic.mathJaxRender.settings.source"
+msgstr "MathJax kaynağı"
+
+msgid "plugins.generic.mathJaxRender.settings.source.cdn"
+msgstr "CDN (jsDelivr, sabit sürüm 3.2.2)"
+
+msgid "plugins.generic.mathJaxRender.settings.source.bundled"
+msgstr "Eklenti içindeki kopya (kendi sunucunuzdan, dış istek yok — önerilen; gizlilik/KVKK veya intranet kurulumları için)"
+
+msgid "plugins.generic.mathJaxRender.settings.source.bundledMissing"
+msgstr "kullanılamıyor: eklentiyle birlikte gelen MathJax dosyaları bu kurulumda yok"
+
+msgid "plugins.generic.mathJaxRender.settings.delimiters"
+msgstr "Formül sınırlayıcıları"
+
+msgid "plugins.generic.mathJaxRender.settings.singleDollar"
+msgstr "Tek dolar işaretini ($ ... $) de satır içi matematik olarak tanı. Uyarı: \"fiyatlar $5 ile $10 arasında\" gibi metinler bu durumda formül olarak görüntülenir. Derginiz satır içi matematiği tutarlı biçimde tek dolarla yazmıyorsa kapalı bırakın."
+
+msgid "plugins.generic.mathJaxRender.settings.inputFormats"
+msgstr "Girdi formatları"
+
+msgid "plugins.generic.mathJaxRender.settings.inputFormats.description"
+msgstr "TeX/LaTeX her zaman etkindir. MathML veya AsciiMath açıldığında biraz daha büyük bir MathJax paketi yüklenir."
+
+msgid "plugins.generic.mathJaxRender.settings.inputTex"
+msgstr "TeX / LaTeX (her zaman açık)"
+
+msgid "plugins.generic.mathJaxRender.settings.inputMathml"
+msgstr "MathML"
+
+msgid "plugins.generic.mathJaxRender.settings.inputAsciimath"
+msgstr "AsciiMath (formüller ters tırnakla sınırlanır)"

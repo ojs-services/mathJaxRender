@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MathJax for OJS\n"
+"Last-Translator: OJS Services\n"
+"Language-Team: es_ES\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.mathJaxRender.displayName"
+msgstr "MathJax para OJS"
+
+msgid "plugins.generic.mathJaxRender.description"
+msgstr "Muestra las fórmulas matemáticas en LaTeX/TeX en las páginas de su revista mediante MathJax."
+
+msgid "plugins.generic.mathJaxRender.settings.description"
+msgstr "Elija dónde se carga MathJax y cómo se reconocen las fórmulas. MathJax solo se carga en las páginas seleccionadas a continuación; las páginas no seleccionadas no se modifican en absoluto."
+
+msgid "plugins.generic.mathJaxRender.settings.areas"
+msgstr "Áreas activadas"
+
+msgid "plugins.generic.mathJaxRender.settings.areas.description"
+msgstr "Cargar MathJax en las páginas siguientes:"
+
+msgid "plugins.generic.mathJaxRender.settings.areaArticle"
+msgstr "Página del artículo (resumen)"
+
+msgid "plugins.generic.mathJaxRender.settings.areaGalley"
+msgstr "Páginas de galerada HTML (texto completo)"
+
+msgid "plugins.generic.mathJaxRender.settings.areaIssue"
+msgstr "Tabla de contenidos del número y archivo"
+
+msgid "plugins.generic.mathJaxRender.settings.areaSearch"
+msgstr "Resultados de búsqueda"
+
+msgid "plugins.generic.mathJaxRender.settings.areaHomepage"
+msgstr "Página de inicio de la revista y avisos"
+
+msgid "plugins.generic.mathJaxRender.settings.areaBackend"
+msgstr "Área editorial — EXPERIMENTAL: muestra las fórmulas en las listas del área editorial, como los títulos de los envíos. Si alguna vez interfiere con el trabajo editorial, desactívelo aquí."
+
+msgid "plugins.generic.mathJaxRender.settings.backend"
+msgstr "Opciones del área editorial"
+
+msgid "plugins.generic.mathJaxRender.settings.backend.description"
+msgstr "Estas opciones solo se aplican al área editorial."
+
+msgid "plugins.generic.mathJaxRender.settings.backendSingleDollar"
+msgstr "Tratar los signos de dólar simples ($ ... $) como fórmulas en línea en el área editorial. Los títulos de los artículos suelen escribirse así, por lo que está activado de forma predeterminada, con independencia del ajuste de delimitadores de las páginas públicas."
+
+msgid "plugins.generic.mathJaxRender.settings.source.fallbackWarning"
+msgstr "Aviso: está seleccionada la copia alojada en el servidor (incluida), pero sus archivos no se encuentran en el servidor, así que MathJax se está cargando desde la CDN. Restaure el directorio mathjax/ del módulo (reinstale el paquete del módulo) o cambie el origen a CDN."
+
+msgid "plugins.generic.mathJaxRender.settings.source"
+msgstr "Origen de MathJax"
+
+msgid "plugins.generic.mathJaxRender.settings.source.cdn"
+msgstr "CDN (jsDelivr, versión fija 3.2.2)"
+
+msgid "plugins.generic.mathJaxRender.settings.source.bundled"
+msgstr "Copia incluida (alojada en el servidor, sin peticiones externas; recomendada; para privacidad/RGPD o instalaciones en intranet)"
+
+msgid "plugins.generic.mathJaxRender.settings.source.bundledMissing"
+msgstr "no disponible: los archivos de MathJax incluidos no se instalaron con este módulo"
+
+msgid "plugins.generic.mathJaxRender.settings.delimiters"
+msgstr "Delimitadores de fórmulas"
+
+msgid "plugins.generic.mathJaxRender.settings.singleDollar"
+msgstr "Tratar también los signos de dólar simples ($ ... $) como fórmulas en línea. Aviso: un texto como \"los precios van de $5 a $10\" se mostraría entonces como una fórmula. Déjelo desactivado salvo que su revista escriba siempre las fórmulas en línea con dólares simples."
+
+msgid "plugins.generic.mathJaxRender.settings.inputFormats"
+msgstr "Formatos de entrada"
+
+msgid "plugins.generic.mathJaxRender.settings.inputFormats.description"
+msgstr "TeX/LaTeX está siempre activado. Activar MathML o AsciiMath carga una versión de MathJax algo mayor."
+
+msgid "plugins.generic.mathJaxRender.settings.inputTex"
+msgstr "TeX / LaTeX (siempre activado)"
+
+msgid "plugins.generic.mathJaxRender.settings.inputMathml"
+msgstr "MathML"
+
+msgid "plugins.generic.mathJaxRender.settings.inputAsciimath"
+msgstr "AsciiMath (fórmulas delimitadas con acentos graves)"
