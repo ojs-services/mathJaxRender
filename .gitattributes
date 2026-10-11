@@ -1,0 +1,8 @@
+# Keep the bundled MathJax files byte-identical to the official package.
+mathjax/** -text
+*.js -text
+*.png binary
+
+# Repository-only files that are not part of the plugin package.
+docs/ export-ignore
+.gitattributes export-ignore
